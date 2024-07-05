@@ -39,7 +39,7 @@ Public Class Home
         rtbResults.AppendText($"Το ακαθάριστο ετήσιο εισόδημά σας είναι: {grossIncome:F2} ευρώ." & vbCrLf)
         rtbResults.AppendText($"Ο φόρος εισοδήματός σας ανέρχεται σε: {tax:F2} ευρώ." & vbCrLf & vbCrLf)
         For i As Integer = 0 To monthlyRents.Count - 1
-            rtbResults.AppendText($"Το μινιαίο καθαρό εισόδημα από ενοίκιο για ακίνητο {i + 1} είναι: {monthlyNetIncome(i):F2} ευρώ." & vbCrLf)
+            rtbResults.AppendText($"Το μηνιαίο καθαρό εισόδημα από ενοίκιο για ακίνητο {i + 1} είναι: {monthlyNetIncome(i):F2} ευρώ." & vbCrLf)
         Next
         rtbResults.AppendText(vbCrLf & $"Συνολικό μηνιαίο καθαρό εισόδημα: {totalMonthlyNetIncome:F2} ευρώ.")
     End Sub
@@ -102,5 +102,7 @@ Public Class Home
 
     End Sub
 
+    Private Sub lblResult_Click(sender As Object, e As EventArgs) Handles lblResult.Click
 
+    End Sub
 End Class
