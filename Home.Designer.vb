@@ -22,10 +22,10 @@ Partial Class Home
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle29 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle30 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle31 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle32 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.dgvRents = New System.Windows.Forms.DataGridView()
         Me.ColumnProperty = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ColumnRent = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -43,44 +43,44 @@ Partial Class Home
         'dgvRents
         '
         Me.dgvRents.AllowUserToAddRows = False
-        DataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(63, Byte), Integer))
-        DataGridViewCellStyle25.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.IndianRed
-        DataGridViewCellStyle25.SelectionForeColor = System.Drawing.Color.Black
-        Me.dgvRents.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle25
+        DataGridViewCellStyle29.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(63, Byte), Integer))
+        DataGridViewCellStyle29.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle29.SelectionBackColor = System.Drawing.Color.IndianRed
+        DataGridViewCellStyle29.SelectionForeColor = System.Drawing.Color.Black
+        Me.dgvRents.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle29
         Me.dgvRents.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(63, Byte), Integer))
         Me.dgvRents.BorderStyle = System.Windows.Forms.BorderStyle.None
-        DataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(63, Byte), Integer))
-        DataGridViewCellStyle26.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle26.ForeColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.IndianRed
-        DataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.Desktop
-        DataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvRents.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle26
+        DataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle30.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(63, Byte), Integer))
+        DataGridViewCellStyle30.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle30.ForeColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.IndianRed
+        DataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.Desktop
+        DataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvRents.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle30
         Me.dgvRents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvRents.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ColumnProperty, Me.ColumnRent})
         Me.dgvRents.Cursor = System.Windows.Forms.Cursors.IBeam
-        DataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle27.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(63, Byte), Integer))
-        DataGridViewCellStyle27.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle27.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.IndianRed
-        DataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.Desktop
-        DataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvRents.DefaultCellStyle = DataGridViewCellStyle27
+        DataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle31.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(63, Byte), Integer))
+        DataGridViewCellStyle31.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle31.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle31.SelectionBackColor = System.Drawing.Color.IndianRed
+        DataGridViewCellStyle31.SelectionForeColor = System.Drawing.SystemColors.Desktop
+        DataGridViewCellStyle31.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvRents.DefaultCellStyle = DataGridViewCellStyle31
         Me.dgvRents.GridColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(63, Byte), Integer))
         Me.dgvRents.Location = New System.Drawing.Point(83, 59)
         Me.dgvRents.Name = "dgvRents"
         Me.dgvRents.RightToLeft = System.Windows.Forms.RightToLeft.No
-        DataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(63, Byte), Integer))
-        DataGridViewCellStyle28.Font = New System.Drawing.Font("Arial Narrow", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle28.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.IndianRed
-        DataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.Desktop
-        DataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvRents.RowHeadersDefaultCellStyle = DataGridViewCellStyle28
+        DataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(63, Byte), Integer))
+        DataGridViewCellStyle32.Font = New System.Drawing.Font("Arial Narrow", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle32.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.IndianRed
+        DataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.Desktop
+        DataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvRents.RowHeadersDefaultCellStyle = DataGridViewCellStyle32
         Me.dgvRents.RowHeadersVisible = False
         Me.dgvRents.RowTemplate.ReadOnly = True
         Me.dgvRents.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -153,7 +153,7 @@ Partial Class Home
         Me.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnReset.Font = New System.Drawing.Font("Arial", 9.5!, System.Drawing.FontStyle.Bold)
         Me.btnReset.ForeColor = System.Drawing.Color.White
-        Me.btnReset.Location = New System.Drawing.Point(269, 243)
+        Me.btnReset.Location = New System.Drawing.Point(269, 321)
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(99, 29)
         Me.btnReset.TabIndex = 5
@@ -168,7 +168,7 @@ Partial Class Home
         Me.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnExit.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnExit.ForeColor = System.Drawing.Color.White
-        Me.btnExit.Location = New System.Drawing.Point(653, 237)
+        Me.btnExit.Location = New System.Drawing.Point(653, 321)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(78, 35)
         Me.btnExit.TabIndex = 6
@@ -194,7 +194,7 @@ Partial Class Home
         Me.rtbResults.ForeColor = System.Drawing.SystemColors.Window
         Me.rtbResults.Location = New System.Drawing.Point(269, 73)
         Me.rtbResults.Name = "rtbResults"
-        Me.rtbResults.Size = New System.Drawing.Size(462, 158)
+        Me.rtbResults.Size = New System.Drawing.Size(462, 242)
         Me.rtbResults.TabIndex = 9
         Me.rtbResults.Text = ""
         '
@@ -214,7 +214,7 @@ Partial Class Home
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(42, Byte), Integer), CType(CType(63, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(767, 292)
+        Me.ClientSize = New System.Drawing.Size(767, 378)
         Me.Controls.Add(Me.txtRent)
         Me.Controls.Add(Me.rtbResults)
         Me.Controls.Add(Me.lblResult)
